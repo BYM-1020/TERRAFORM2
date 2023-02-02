@@ -8,8 +8,9 @@ variable "location" {
 variable "tags" {
     type = map(any)
 }
-variable "vnetname"
+variable "vnetname" {
     type = string
-
-variable "subnetname"
+}
+variable "subnetname" {
     type = string
+}
