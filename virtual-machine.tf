@@ -1,4 +1,4 @@
-resource "azurerm_linux_virtual_machine" "BYM_VM" {
+resource "azurerm_linux_virtual_machine" "BYM-VM" {
   name                = var.virtualMachineName
   resource_group_name = azurerm_resource_group.myTerraformGroup.name
   location            = var.location
