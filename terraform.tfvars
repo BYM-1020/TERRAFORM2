@@ -6,4 +6,4 @@ tags = {
 vnetname = "myTerraformvnetname"
 subnetname = "mysubnetname"
 ipaddressname = "myIpaddress"
-nsgname = "myNSGname"
+nsgname = "myNSG"
