@@ -2,7 +2,7 @@ resource "random_id" "randomId" {
     keepers = {
         resource_group = azurerm_resource_group.myTerraformGroup.name
     }
-    byte_lengty = 8
+    byte_length = 8
 }
 
 resource "azurerm_storage_account" "example" {
